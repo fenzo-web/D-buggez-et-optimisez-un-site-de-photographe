@@ -6388,12 +6388,8 @@ fieldset:disabled .btn {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
   text-align: center;
-  background: none;
   border: 0;
-  opacity: 0.5;
-  transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -6405,10 +6401,8 @@ fieldset:disabled .btn {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: 0.9;
 }
 
 .carousel-control-prev {
@@ -6469,7 +6463,7 @@ fieldset:disabled .btn {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #055160;
+  background-color: #fff;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
